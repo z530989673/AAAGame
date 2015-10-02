@@ -74,7 +74,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Main\Entry.cs" />
+    <Compile Include="Assets\Main\EventSystem\DefaultEventHandler.cs" />
+    <Compile Include="Assets\Main\EventSystem\Event.cs" />
+    <Compile Include="Assets\Main\EventSystem\EventManager.cs" />
+    <Compile Include="Assets\Main\EventSystem\EvtConstant.cs" />
+    <Compile Include="Assets\Main\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
